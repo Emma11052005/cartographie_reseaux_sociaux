@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Cartographie des controverses — Réseaux sociaux</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar">
+    <div class="logo">CONTROVERSES<span>.LAB</span></div>
+    <ul>
+        <li><a href="#intro">Contexte</a></li>
+        <li><a href="#chrono">Histoire</a></li>
+        <li><a href="#axes">Analyses</a></li>
+        <li><a href="#terrain">Enquête</a></li>
+        <li><a href="#glossaire">Glossaire</a></li>
+    </ul>
+</nav>
+
+<header class="hero">
+    <div class="hero-content">
+        <span class="badge">Étude sociotechnique 2026</span>
+        <h1>Les réseaux sociaux<br><span>Progrès ou menace sociétale ?</span></h1>
+        <p>Une cartographie interactive complète des controverses numériques contemporaines.</p>
+        <a href="#intro" class="cta">Explorer l'étude</a>
+    </div>
+</header>
+
+<section id="intro" class="section">
+    <h2>Introduction & Problématique</h2>
+
+    <div class="intro-grid">
+        <p>
+            Les réseaux sociaux numériques occupent aujourd’hui une place centrale dans les sociétés contemporaines. Ils permettent aux utilisateurs de créer des profils, de partager des contenus et d’interagir avec d’autres individus à travers le monde. Des plateformes comme Instagram, TikTok, Snapchat, Facebook, X (Twitter) ou OnlyFans rassemblent plusieurs milliards d’utilisateurs actifs et influencent profondément les comportements sociaux, économiques et politiques.
+Initialement conçus comme des outils de communication et de divertissement, les réseaux sociaux sont devenus des acteurs majeurs de la vie publique. Ils participent à la diffusion de l’information, à la structuration des opinions et à la création de nouvelles formes de sociabilité. Cependant, leur développement rapide s’accompagne de nombreuses controverses. Les plateformes sont accusées de favoriser la désinformation, l’addiction, le cyberharcèlement, la manipulation politique et l’exploitation des données personnelles. À l’inverse, elles sont également défendues comme des espaces de liberté d’expression, d’innovation et d’opportunités économiques.
+Cette cartographie des controverses vise à analyser les différents points de vue autour des réseaux sociaux afin de mettre en évidence la complexité du débat, les acteurs impliqués et les enjeux sociétaux associés.
+
+        </p>
+
+        <div class="problem-card">
+            <i class="fa-solid fa-quote-left"></i>
+            <p> <br>
+                Les réseaux sociaux constituent-ils un progrès social favorisant l’expression et la connectivité ou représentent-ils une menace pour la société contemporaine, en raison de leurs impacts cognitifs, sociaux, politiques et économiques ?
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="chrono" class="section dark">
+    <h2>Évolution historique de la controverse</h2>
+
+    <div class="timeline">
+
+        <div class="event">
+            <span>2000 — 2010</span>
+            <h3>innovation majeure</h3>
+            <p>
+Au début des années 2000, l’apparition de Facebook, YouTube et Instagram est perçue comme une innovation majeure permettant de connecter les individus à l’échelle mondiale. Les réseaux sociaux sont alors associés à une vision optimiste du numérique, fondée sur le partage et la démocratisation de l’information.
+            </p>
+        </div>
+
+        <div class="event">
+            <span>2011</span>
+            <h3>Essor massif des smartphones</h3>
+            <p>
+                À partir de 2011, avec l’essor massif des smartphones et le rôle joué par les réseaux sociaux dans certains mouvements politiques (par exemple les Printemps arabes), leur influence sociopolitique devient visible. Les plateformes ne sont plus de simples outils de communication mais de véritables espaces publics numériques.
+            </p>
+        </div>
+
+        <div class="event">
+            <span>2018</span>
+            <h3>Scandale Cambridge Analytica</h3>
+            <p>
+                L’année 2018 marque un tournant avec le scandale Cambridge Analytica, révélant l’exploitation massive de données personnelles à des fins politiques (notamment lors des élections américaines et du Brexit). Cette affaire provoque une prise de conscience mondiale sur les risques liés à la collecte des données et à la manipulation algorithmique.
+            </p>
+        </div>
+
+        <div class="event">
+            <span>2020 — Aujourd’hui</span>
+            <h3>Phase de régulation</h3>
+            <p>
+                Entre 2020 et 2023, la pandémie de Covid 19 met en lumière le rôle central des réseaux sociaux dans la diffusion de l’information mais aussi dans la propagation de fausses nouvelles et de contenus alarmistes. Parallèlement, de nombreuses études alertent sur les effets négatifs de l’usage intensif des réseaux sociaux sur la santé mentale des jeunes. (Recherche Santé)
+Aujourd’hui, les débats se concentrent sur la régulation des plateformes, la transparence des algorithmes et la responsabilité des entreprises numériques. L’Union européenne a notamment adopté de nouvelles lois (Digital Services Act, Digital Markets Act) pour encadrer ces pratiques et limiter les abus. (Le Monde.fr)
+
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="carte-mentale" class="section">
+    <h2>Carte Mentale — Réseaux Sociaux</h2>
+    <div class="mindmap-container">
+        <!-- SVG pour les lignes -->
+        <svg id="mindmap-lines" class="mindmap-lines"></svg>
+
+        <!-- Nœuds -->
+        <div class="node central" id="central-node">Réseaux Sociaux</div>
+        <div class="node politique" id="politique-node">Politique</div>
+        <div class="node social" id="social-node">Social</div>
+        <div class="node sante" id="sante-node">Santé & Psychologie</div>
+        <div class="node media" id="media-node">Médiatique</div>
+        <div class="node eco" id="eco-node">Économique</div>
+        <div class="node business" id="business-node">Business</div>
+        <div class="node jeunesse" id="jeunesse-node">Jeunesse</div>
+        <div class="node moral" id="moral-node">Moral</div>
+    </div>
+</section>
+
+<section id="axes" class="section">
+    <h2>Axes d’analyse de la controverse</h2>
+    <p class="subtitle">Cliquez sur chaque pilier pour accéder à l'analyse complète.</p>
+
+    <div class="cards">
+
+        <div class="card" onclick="openModal('politique')">
+            <i class="fa-solid fa-gavel"></i>
+            <h3>Politique</h3>
+        </div>
+
+        <div class="card" onclick="openModal('social')">
+            <i class="fa-solid fa-users"></i>
+            <h3>Social</h3>
+        </div>
+
+        <div class="card" onclick="openModal('sante')">
+            <i class="fa-solid fa-heart-pulse"></i>
+            <h3>Santé mentale</h3>
+        </div>
+
+        <div class="card" onclick="openModal('media')">
+            <i class="fa-solid fa-newspaper"></i>
+            <h3>Médiatique</h3>
+        </div>
+
+        <div class="card" onclick="openModal('eco')">
+            <i class="fa-solid fa-chart-line"></i>
+            <h3>Économique</h3>
+        </div>
+
+        <div class="card" onclick="openModal('business')">
+            <i class="fa-solid fa-briefcase"></i>
+            <h3>Business</h3>
+        </div>
+
+        <div class="card" onclick="openModal('jeunesse')">
+            <i class="fa-solid fa-users"></i>
+            <h3>Jeunesse</h3>
+        </div>
+
+        <div class="card" onclick="openModal('moral')">
+            <i class="fa-solid fa-scale-balanced"></i>
+            <h3>Moral</h3>
+        </div>
+
+    </div>
+</section>
+
+<section id="terrain" class="section">
+    <h2>Évolution de votre point de vue</h2>
+
+    <div class="survey-box" id="quiz-content">
+        <p>
+            Après avoir consulté cette cartographie,
+            comment percevez-vous maintenant les réseaux sociaux ?
+        </p>
+
+        <div class="buttons">
+            <button onclick="finishQuiz('Progrès')">Un progrès</button>
+            <button onclick="finishQuiz('Menace')">Une menace</button>
+            <button onclick="finishQuiz('Neutre')">Neutre</button>
+        </div>
+    </div>
+</section>
+
+<section id="glossaire" class="section">
+    <h2>Glossaire scientifique</h2>
+    <p>Pour consulter le glossaire complet des termes, cliquez ci-dessous :</p><br>
+    <a href="glossaire.html" class="btn-glossaire">Accéder au Glossaire</a>
+</section>
+
+<footer>
+    <p>© 2026 — Cartographie des controverses numériques | Projet universitaire</p>
+</footer>
+
+<!-- MODAL -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span onclick="closeModal()" class="close">&times;</span>
+        <div id="modal-body"></div>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+<!-- QUIZ INITIAL POPUP -->
+<div id="startQuiz" class="modal">
+    <div class="modal-content">
+        <h2>Quizz initial</h2>
+        <h4>Première question : </h4>
+        <p><br>
+            Avant d'explorer cette cartographie,
+            considérez-vous les réseaux sociaux comme :
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('Progrès')">Un progrès</button>
+            <button onclick="startAnswer('Menace')">Une menace</button>
+            <button onclick="startAnswer('Neutre')">Neutre</button>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <h4>Deuxième question : </h4>
+        <p><br>
+            Combien de temps passez-vous sur les réseaux sociaux par jour en moyenne ? 
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('une')">Moins d'une heure</button>
+            <button onclick="startAnswer('deux')">Entre une et trois heures</button>
+            <button onclick="startAnswer('trois')">Plus de trois heures</button>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <h4>Troisième question : </h4>
+        <p><br>
+            Êtes-vous confronté aux réseaux sociaux dans votre activité professionnelle ?
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('O')">Oui</button>
+            <button onclick="startAnswer('N')">Non</button>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <h4>Quatrième question : </h4>
+        <p><br>
+            D'après vous, faudrait-il interdire ou autoriser les réseauc sociaux à la jeunesse ? 
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('A')">Autoriser</button>
+            <button onclick="startAnswer('I')">Interdire</button>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <h4>Cinquième question : </h4>
+        <p><br>
+            D'après vous, combien de pourcentage les réseaux sociaux représentent-ils en terme économique ?
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('peu')">%</button>
+            <button onclick="startAnswer('moyen')">%</button>
+            <button onclick="startAnswer('beaucoup')">%</button>
+        </div>
+    </div>
+
+    <div class="modal-content">
+        <h4>Cinquième question : </h4>
+        <p><br>
+            D'après vous, combien de pourcentage les réseaux sociaux représentent-ils en terme économique ?
+        </p>
+
+        <div class="buttons">
+            <button onclick="startAnswer('peu')">%</button>
+            <button onclick="startAnswer('moyen')">%</button>
+            <button onclick="startAnswer('beaucoup')">%</button>
+        </div>
+    </div>
+
+
+    
+</div>
+
+</body>
+</html>
