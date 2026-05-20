@@ -7,11 +7,13 @@ const content = {
 politique: {
 title: "Dimension politique",
 text: `
-Les réseaux sociaux occupent une place croissante dans les processus démocratiques. Ils permettent aux citoyens de s’exprimer publiquement, de s’organiser collectivement et de participer à des mobilisations sociales. Cette ouverture de la parole est souvent présentée comme un progrès démocratique favorisant l’engagement politique, en particulier chez les jeunes générations.
-
-Cependant, cette démocratisation s’accompagne de risques importants. Des campagnes de désinformation organisées ont été observées lors de plusieurs élections. L’utilisation de faux comptes, de bots et de stratégies de ciblage algorithmique permet d’influencer certains groupes sociaux sans transparence, ce qui remet en question la sincérité du débat public. (L'Est Républicain)
-
-Face à ces dérives, les États cherchent à renforcer la régulation des plateformes numériques afin de protéger les citoyens et de garantir l’intégrité des processus démocratiques. Toutefois, cette régulation soulève aussi des inquiétudes concernant la liberté d’expression et le risque de censure. Le débat politique repose donc sur une tension entre sécurité, transparence et respect des libertés fondamentales.
+Les réseaux sociaux peuvent être utilisés pour influencer les électeurs dans des élections présidentielles et législatives, par exemple en publiant des propos favorisant ou discréditant un homme politique ou un parti politique, par exemple dans les élections présidentielles de 2025 en Roumanie qui ont été annulées à cause d’interventions extérieures surtout des réseaux sociaux comme TikTok, il a été couvert en anglais par le BBC : Romanian elections: TikTokers and an election scandal et en français par France Info : Annulation de la présidentielle en Roumanie. 
+Mais aussi dans le scandale Cambridge Analytica, une entreprise de consultation Britannique qui a analysé et exploité les données de Facebook pour envoyer des messages ciblés dans le but d’intervenir dans des élections à plusieurs niveaux dans plusieurs pays, principalement aux Etats-Unis, ces activités ont commencés à partir de 2014, le scandale a été couvert en français par l’IMEB : Scandale Cambridge Analytica : De quoi est-il question ? et en anglais par le CBC : Remember Cambridge Analytica?.
+Le printemps arabe nous a montré la possibilité d’une influence religieuse de la part des réseaux sociaux, l’événement qui a eu lieu au Moyen-Orient peu de temps après l’introduction des réseaux sociaux dans la région a montré la puissance de la communication et de l’expression libre des pensées en ligne dans un réseau de millions d’utilisateurs.
+Il y a eu plusieurs articles sur cet événement et l’effet des réseaux, par exemple de la part de Cairn : La révolte en réseau : le « printemps arabe » et les médias sociaux 
+Et de la part du Monde : Comment Internet a fait les « printemps arabes » 
+Et un article de France 24 qui donne un autre point de vue et suggère qui les réseaux sociaux n’ont pas eu l’impacte suggéré par d’autres articles :
+Printemps arabe : "Le rôle des réseaux sociaux a été très exagéré" 
 `
 },
 
@@ -46,11 +48,8 @@ Et puis, il y a le cyberharcèlement. Les insultes, les humiliations ou la press
 eco: {
 title: "Dimension économique",
 text: `
-Les réseaux sociaux ont créé un nouvel écosystème économique. Ils ont permis l’émergence de nouveaux métiers et offrent une visibilité internationale.
-
-Cependant, ce modèle repose sur la collecte de données personnelles. Les grandes entreprises concentrent les profits, tandis que les créateurs restent dépendants des algorithmes.
-
-Cela pose des questions éthiques sur la vie privée et la répartition des richesses.
+Les réseaux sociaux se montrent très puissants dans l’économie en tant qu’outils de publicité, ces outils de publicité sont offerts aux individus comme aux entreprises, les individus peuvent par exemple les utiliser pour obtenir du soutien pour leurs causes, par exemple dans l’incident GameStop de 2021, une communauté Reddit en ligne a réussi à faire une grande différence après un appel des armes d’un membre de la communauté, couvert ici par Reuters : How retail traders squeezed Wall Street for bets against GameStop. Un autre exemple sur le marché boursier est l’incident de DogeCoin de 2021, cette fois ci c’est la communauté Twitter qui a répondu à Elon Musk, il y a un article qui présente le point de vue d’un utilisateur, publié par CNBC : Reddit trader: I'm a dogecoin millionaire, inspired by Elon Musk et puis un article plus global de CNBC : Dogecoin price surges after tweets from Elon Musk and Mark Cuban. Un troisième exemple sera l’incident United Airlines de 2017 quand une vidéo a explosé en popularité, l’histoire a produit beaucoup de critiques de United Airlines, une société aéronautique américaine et l’internet a réagi en faisant perdre des centaines de millions de dollars à l’entreprise, il a été couvert par EuroNews : Disturbing footage of United Airlines dragging man from his overbooked flight.
+Dans l’utilisation commercial, les réseaux sociaux sont utilisés par une grande partie des entreprises pour la publicité de leurs produits et de leurs événements, par exemple, en 2020, le jeu vidéo Fortnite a mis en place un événement en directe avec le rappeur Travis Scott qui a garni 13 millions de joueurs simultanés ce qui était le record mondial de joueurs simultanés sur un jeu vidéo, produisant un flux énorme de joueurs sur le jeu et un gain d’argent massif, il y a eu un article du Washington post en anglais : Travis Scott’s Fortnite concert was a live online experience for the ages et un article en français du Parisien : Fortnite : un concert du rappeur Travis Scott rassemble plus de 12 millions de joueurs.
 `
 },
 
